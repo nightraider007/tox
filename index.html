@@ -7,24 +7,24 @@
 
 <style>
   pre {
-    max-width: 90%;
-    width: 50%;
-    margin: 2rem auto 2rem 0; /* top, right, bottom, left */
-    padding: 1rem;
-    font-size: 0.95rem;
-    line-height: 1.4;
-    white-space: pre-wrap; /* allows wrapping within pre */
-    word-break: break-word;
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+  width: 50%;
+  max-width: 90%;
+  margin: 2rem auto; /* ← auto on left/right centers the block */
+  padding: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left; /* explicitly keep text left-aligned */
   }
 
   @media (max-width: 768px) {
     pre {
       width: 95%;
-      margin-left: auto;
-      margin-right: auto;
+       
     }
   }
 </style>
@@ -33,7 +33,7 @@
 
 <body>
 
-  <h1>My Azure Knowledge & Empowerment Series: Technical Training and Team Enablement</h1>
+  <h1 align=center>My Azure Knowledge & Empowerment Series: Technical Training and Team Enablement</h1>
 
 <pre>
 From Concepts to Confidence: Bridging Knowledge Gaps Through Hands-On Training and Transformation
